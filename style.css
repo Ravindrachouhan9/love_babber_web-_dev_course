@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wrapper{
+    overflow-y: hidden;
+}
+.deep_blue_colour{
+    background-color: #02042a;
+}
+.tick{
+   color: #61cea6;
+        }
+.triangle {
+    color: #2b84ea;
+        }
+.lightblue{
+    background-color: #2b84ea;
+}
+.arrow{
+    font-size: 1.5rem;
+}
+.tickk{
+    background-color: #61cea6;
+    
+}
+.extrafeature{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+
+}
+.deep_blue{
+    color: #02042a;
+}
+.companylist{
+    animation:10s infinite linear movecompany;
+}
+
+@keyframes movecompany {
+    0%{
+        top:0%;
+    }
+    100%{
+        top:-50%;
+    }
+}
+.gradient1{
+    background: linear-gradient(180deg, #f4f8ff, #fff0);
+}
+.gradient2{
+    background: linear-gradient(0deg, #f4f8ff, #fff0);
+}
