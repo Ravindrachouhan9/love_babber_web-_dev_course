@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    #wrapper{
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: antiquewhite;
+    }
+    #h1,h2{
+        text-align: center;
+        height: 30px;
+    }
+    .from_content{
+        margin: 8px;
+    }
+    .gap{
+        width :30%;
+        float :left;
+    }
+    #form {
+       width: 15cm;
+       padding: 2cm;
+       margin-left: 8cm;
+       height: 8cm;
+       box-shadow: 3px 3px 3px black;
+       border-radius: 1cm;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       display: block;
+       background-color: rgb(169, 167, 167);                                                                       
+    }
+    .button{
+        float: right;
+    }
+  button:visited , button:link{
+    background-color: solid black;
+    color: white;
+  }
+  button:hover{
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+  }
+ 
+</style>
+<body>
+    <div id="wrapper">
+    <div id="h1" class="head">
+    <h1>This is Create By Ravindra Chouhan </h1>
+    <br>
+    </div>
+    <div id="h2" class="head">
+    <h2>Contact Us Form</h2>
+    <br>
+    </div>
+    <div id="form" class="head" >
+    <form >
+    <div class="from_content">
+        <div class="gap">
+        <label for="name">Name : </label>
+        </div>
+        <input type="text" id="name" placeholder="Enter Your Name" style="width: 67%;">
+    </div>
+    <div class="from_content">
+        <div class="gap">
+        <label for="EMail">E-Mail : </label>
+        </div>
+        <input type="text" id="mail" placeholder="mail" style="width: 67%;">      
+    </div>
+    <div>
+        <div class="gap">
+        <label for="contact">Contact : </label>
+        </div>
+        <input type="text" id="contact" placeholder="contact number" style="width: 66%;">
+    </div>
+    <div class="from_content">
+        <div class="gap">
+        <label for="gender">Gender : </label>
+        </div>
+        <select name="gender" id="gender">
+        <option value="Select">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+    </div>
+    <div class="from_content">
+        <div class="gap">
+        <label for="date">Date of Birth : </label>
+        </div>
+        <input type="date" id="date" >
+    </div>
+    <div class="from_content">
+        <div class="gap">
+        <label for="rating">Rating : </label>
+        </div>
+        <input type="radio" name="rating" >
+        <label for="1">1</label>
+        <input type="radio" name="rating">
+        <label for="2">2</label>
+        <input type="radio" name="rating">
+        <label for="3">3</label>
+        <input type="radio" name="rating">
+        <label for="4">4</label>
+        <input type="radio" name="rating">
+        <label for="5">5</label>
+    </div>
+    <div class="from_content">
+        <div class="gap">
+        <label for="msg">Enter Your Message : </label>
+        </div>
+        <textarea name="message" id="msg" cols="49" rows="9"></textarea></div>
+    <div class="from_content">
+        <button name="button" class="button" id="submit">submit</button>
+        <button name="button" class="button" id="Reset">Reset</button>
+    </div>
+    </form>
+      </div>
+      </div>
+</body>
+</html>

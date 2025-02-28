@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* background-color: antiquewhite; */
+        
+        }
+    .wrapper{
+        background-color: rgb(27, 222, 222);
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 30% 30% ;
+        grid-template-rows: 25% 25% 25% ;
+        gap: 2cm 2cm;
+        padding: 3em;
+      
+    }
+    .gradient{
+    padding: 5px;
+    margin: 0em; 
+    border:3px solid black; 
+    background-color: rgb(245, 207, 207);
+    }
+    .gradient:hover{
+        transform: scale(1.05); 
+        box-shadow: 3px 3px 3px;
+    }
+    
+    
+</style>
+<body>
+     <div class="wrapper">
+    <h1 style="margin-left: 27%; padding-bottom: 1cm;">Blog Title</h1>
+    <div class="container">
+    <div class="gradient" id="a" >
+        <h4>world</h4>
+        <h2>Example Blog Post</h2>
+        <h2>22JAN</h2>
+        <p>This card represents an example blog post</p>
+    </div>
+    <div class="gradient" id="b">
+        <h4>world</h4>
+        <h2>Example Blog Post</h2>
+        <h2>2JAN</h2>
+        <p>This card represents an example blog post</p>
+    </div>
+    <div class="gradient" id="c">
+        <h4>world</h4>
+        <h2>Example Blog Post</h2>
+        <h2>22JAN</h2>
+        <p>This card represents an example blog post</p>
+    </div>
+    <div class="gradient" id="d"><h4>world</h4>
+        <h2>Example Blog Post</h2>
+        <h2>22JAN</h2>
+        <p>This card represents an example blog post</p></div>
+    <div class="gradient" id="e">
+        <h4>world</h4>
+        <h2>Example Blog Post</h2>
+        <h2>22JAN</h2>
+        <p>This card represents an example blog post</p>
+    </div>
+    <div class="gradient" id="f">
+        <h4>world</h4>
+        <h2>Example Blog Post</h2>
+        <h2>22JAN</h2>
+        <p>This card represents an example blog post</p>
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>

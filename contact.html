@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: bisque;
+    
+}
+.heading-container{
+    font-size:5rem;
+    color: rgb(254, 85, 85);
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    }
+.sub-heading{
+    font-size:3rem;
+    color: rgb(254, 85, 85);
+    margin: 0;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.form-content{
+    padding-left: 7cm;
+    margin: 0.8cm;
+}
+.form-text{
+    width: 70%;
+    padding: 0 2rem;
+    height: 42px;
+    margin-top: 0.7cm;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    border: none;
+}
+.form-message{
+    margin-top: 0.7cm;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    width: 70%;
+    padding: 0 2rem;
+    border: none;
+}
+.button{
+    width: 5cm;
+    height: 1cm;
+    background-color: black;
+    color: white;
+    margin-top: 0.7cm;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px white;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    scale: 0.9;
+}
+footer{
+    padding: 5rem;
+    background-color: #343d68;
+    position: relative;
+    margin-top: -1px;
+}
+.faded-text{
+    user-select: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 5em;
+    color: #535c87;
+}
+.wrapper-section{
+    display: flex;
+    position: absolute;
+    right: 22px;
+    bottom: 18px;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    font-size: 23px;
+}
+
+.section{
+    display: flex;
+    color: white;
+    text-decoration: none;
+   
+}
+
+</style>
+<body>
+   <div class="wrapper">
+    <div class="conatiner">
+        <h1 class="heading-container">Contact Me</h1>
+        <h2 class="sub-heading">Here You Can Contact With Me!</h2>
+        <form class="form-content">
+            <input class="form-text" name="name" type="text" placeholder="Enter Your Name"><br>
+            <input class="form-text" name="email" type="email" placeholder="Enter your mail ID"><br>
+            <input class="form-text" name="subject" type="text" placeholder="Subject"><br>
+            <textarea class="form-message" name="message" id="" cols="30" rows="10" placeholder="Enter The Message"></textarea> <br>
+            <button class="button">Submit</button>
+        </form>
+        <footer>
+            <div class="container">
+            <div class="faded-text">Ravindra</div>
+            <div class="wrapper-section">
+            <div class="section"><a href="#project" style="color: white; text-decoration: none;">Project</a></div>
+            <div class="section"><a href="#skill" style="color: white;text-decoration: none;">Skill</a></div>
+            <div class="section"><a href="#home" style="color: white; text-decoration: none; ">Home</a></div>
+            </div>
+        </div>
+        </footer>
+
+    </div>
+   </div>
+</body>
+</html>
